@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nacos - cluster - config
+  namespace: default
+data:
+  cluster.conf: |
+    # 这里配置集群节点信息，例如
+    server.1=nacos - 1:8848
+    server.2=nacos - 2:8848
+    server.3=nacos - 3:8848
