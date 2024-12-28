@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nacos - cluster - deployment
+  namespace: default
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nacos - cluster
+  template:
+    metadata:
+      labels:
+        app: nacos - cluster
+    spec:
+      containers:
+      - name: nacos - server
+        image: your - nacos - image - name:tag
+        ports:
+        - containerPort: 8848
+        - containerPort: 9848
+        env:
+        - name: MODE
+          value: "cluster"
+        volumeMounts:
+        - name: nacos - cluster - config - volume
+          mountPath: /app/nacos/conf/cluster.conf
+          subPath: cluster.conf
+      volumes:
+      - name: nacos - cluster - config - volume
+        configMap:
+          name: nacos - cluster - config
