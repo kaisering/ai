@@ -14,3 +14,16 @@ folder_path = "your_folder_path"
 old_text = "text_to_replace"
 new_text = "replacement_text"
 replace_text_in_word_files(folder_path, old_text, new_text)
+
+
+import re
+
+
+def parse_strings(input_str):
+    pattern = r'(?:"(?:\\.|[^"])*"|\'(?:\\.|[^\'])*\'|\S+)'
+    return re.findall(pattern, input_str)
+
+
+input_str = input("请输入字符串：")
+result = parse_strings(input_str)
+print("解析结果:", result)
