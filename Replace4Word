@@ -1,0 +1,16 @@
+import os
+import docx
+def replace_text_in_word_files(folder_path, old_text, new_text):
+    for root, dirs, files in os.walk(folder_path):
+        for file in files:
+            if file.endswith(".docx") or file.endswith(".doc"):
+                file_path = os.path.join(root, file)
+                doc = docx.Document(file_path)
+                for paragraph in doc.paragraphs:
+                    if old_text in paragraph.text:
+                        paragraph.text = paragraph.text.replace(old_text, new_text)
+                doc.save(file_path)
+folder_path = "your_folder_path"
+old_text = "text_to_replace"
+new_text = "replacement_text"
+replace_text_in_word_files(folder_path, old_text, new_text)
