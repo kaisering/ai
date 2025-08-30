@@ -1,0 +1,190 @@
+1. 请简单介绍一下您自己，突出您认为最有价值的经历。
+答案：我有 15 年工作经验，其中 10 年 Java 开发 + 5 年前端开发经验，擅长全栈技术与项目管理。过往主导过供应链管理系统、
+低代码平台（LCNC）等核心项目，支撑年交易额超 100 亿元；曾通过架构优化让系统性能提升 80%，搭建 CI/CD 流水线减少 80% 人工操作。
+作为技术组长，我带教过初中级开发，推动团队技术沉淀，同时具备跨团队协作经验，比如在汇丰与供应商联合优化系统稳定性。热爱通过技术解决实际业务问题。
+
+2. 您在团队中通常扮演什么角色？如何与跨部门同事协作推进项目？
+答案：我通常扮演 “技术推动者” 和 “协调者” 角色。在汇丰 LCNC 项目中，我既要负责基础设施搭建和性能优化，也要协调业务、IT、供应商三方需求。比如系统性能优化阶段，业务团队关注效率，供应商关注技术可行性，我通过每周同步会明确各方目标，用数据（如 “优化后报表查询提速 12 倍”）对齐共识，最终推动方案落地。我认为跨部门协作的关键是 “清晰目标 + 透明沟通 + 结果导向”。
+
+3. 工作中遇到压力或高强度任务时，您如何调节和保证效率？
+答案：我会通过 “拆解任务 + 优先级排序” 缓解压力
+。在 SCM-PMS 系统上线前，我们面临跨 5 个系统的联调压力，我将任务拆解为 “接口联调、数据校验、性能测试” 三阶段，
+每天聚焦 1-2 个核心目标，同时协调团队分工，避免单点瓶颈。业余通过跑步、拳击释放压力，保持状态。最终系统提前 3 天稳定上线，支撑了年度百亿级交易，
+这种节奏让我能在高压下保持效率。
+
+4. 您职业生涯中最有成就感的一件事是什么？为什么？
+答案：最有成就感的是在汇丰 LCNC 团队搭建 CI/CD 流水线并优化系统性能。初期团队面临部署繁琐（人工操作多、成功率低）和生产频繁卡顿的问题。
+我牵头搭建自动化部署流程，优化 SQL 索引和 JVM 参数，不仅让部署时间缩短 50%、成功率达 97%，更通过技术分享让团队全员掌握优化方法。
+这件事的价值不仅在于技术成果，更在于提升了团队整体效率和能力，这种 “授人以渔” 的成就感远超个人贡献。
+
+5. 您如何保持对工作的热情，尤其是面对重复或基础任务时？
+答案：我会从 “业务价值” 和 “优化空间” 中找热情。比如处理重复的系统运维任务时，我会思考 “如何自动化减少重复劳动”—— 在汇丰 WeChat 团队时，
+我将高频的日志排查、版本发布流程写成脚本，节省了团队 40% 的基础工作时间。对基础任务，
+我也会关注细节优化，比如在 SRM 系统中通过 “个性化权限工具” 减少重复开发，让简单工作产生长期价值，这种 “从平凡中创造效率” 的过程让我保持动力。
+
+6. 作为技术组长，您如何帮助团队成员成长？
+答案：我坚持 “实战带教 + 经验沉淀” 的方式。
+在广州华科带团队时，我会让初级开发参与核心模块（如 SCM 系统的送货单模块），通过 “结对开发 + Code Review” 指出问题；
+每周组织技术分享，让团队成员轮流主讲（比如分布式事务、SQL 优化），倒逼大家梳理知识；
+同时建立文档库沉淀架构设计和解决方案，让经验可复用。半年内，3 名初级开发能独立负责子项目，团队代码复用率提升 20%。
+
+7. 您未来 3-5 年的职业规划是什么？希望在我们公司获得什么支持？
+答案：我希望未来深耕 “全栈架构 + DevOps” 领域，从技术执行者成长为能主导复杂系统设计的架构师，
+同时持续提升团队管理和跨域协作能力。贵公司在 [金融科技 / 企业级系统] 领域的积累很吸引我，希望能参与核心项目的架构设计，
+同时期待公司提供技术交流、行业资源支持，以及带教团队的机会，让我既能发挥经验价值，也能在新场景中持续成长。
+
+8. 您如何平衡技术深耕与业务理解？认为两者的关系是什么？
+答案：我认为 “技术服务业务，业务反推技术成长”。
+比如在供应链系统（SCM-PMS）中，我不仅深耕分布式事务、缓存优化等技术，更花时间理解采购流程、
+供应商协作的业务逻辑 —— 正是因为懂业务，才知道 “报价单需可追溯”“库存扣减要实时一致”，从而选择合适的技术方案（如 TCC 模式、Redis 分布式锁）。
+日常工作中，我会主动参加业务会议，把技术难点转化为业务能理解的 “效率提升”“风险降低” 指标，让技术真正解决业务痛点。
+
+9. 加入新团队后，您会如何快速融入并建立信任？
+答案：我会分三步融入：首先 “多听多问”，了解团队现有流程、技术栈和核心痛点（比如在汇丰初期，我花 1 周时间梳理 LCNC 系统的运维文档和历史问题）；
+其次 “从小事落地”，快速解决 1-2 个团队公认的小问题（如优化某个卡顿的报表查询），用结果建立初步信任；
+最后 “主动分享”，把我的经验（如 CI/CD 优化、性能调优技巧）通过技术分享传递给团队，
+同时尊重现有习惯，不急于推翻重来。这种 “先融入再贡献” 的方式让我在过往 3 家公司都能快速建立信任。
+
+10. 您认为自己最大的优势是什么？这个优势如何帮助您胜任这份工作？
+答案：我最大的优势是 “技术深度 + 业务落地能力 + 团队协作” 的综合能力。技术上，
+我能解决复杂问题（如修复 Dubbo 源码 BUG、优化系统性能 80%）；
+业务上，能将技术方案与业务目标对齐（如用低代码平台推动银行业务数字化）；
+协作上，擅长跨团队协调和带教团队。这份工作需要既懂技术架构，又能推动落地和团队成长，我的经验能快速接手核心任务，同时帮助团队提升效率，这正是我的价值所在。
+
+LCNC：
+1.阿里云：管理：ACK, ECS, RDS, OSS, LSL, Redis, CMS， BSL （创建，更新，打补丁，维护等）
+2.DevOps：CI/CD, G3, AAP, Terraform, Ansible, Groovy, AppDynamic, Cyberflows, SonarQube, SonarType IQ, Nexus, Docker, Kubernetes
+3.发布全流程：代码审查，确定发布范围，创建CR，组织回归测试，发布，PVT。
+4.on-prem servers：Linux, Apache, Gateway, SSO
+5.处理各种生产和非生产问题，包括性能问题，内存泄漏，死锁，系统崩溃等。
+6.各种流程和权限申请，工具和系统平台Onboarding
+7.部分开发：IB2B, 脚本开发，工具开发（处理数据）
+
+IRTT(Web端，微信端，后台), Weconnect(Web端，微信端，后台),
+1.负责系统设计，数据库设计，微信端和网页端功能开发。
+2．负责与 ADV、HUB、WeChat 等服务的接口集成和联调。
+3．负责动态表单、批量处理、自动通知等核心功能的设计和开发。
+4．作为技术 Leader 给初中级开发同事，提供技术指导和分享。
+
+STP 率提升至 60%以上
+
+Good morning/afternoon. It's a great honor to have the opportunity to attend this interview. 
+I'm Wang Kai, with 15 years of software development experience, focusing on full-stack engineering.
+
+My technical strengths span over 10 years of Java development and 5 years of frontend expertise. 
+I'm proficient in core Java technologies (multi-threading, JVM tuning), Spring ecosystem (SpringBoot, SpringCloud, MyBatis), 
+distributed systems, databases , frontend frameworks like React, and DevOps tools and so on.
+
+Currently, I'm a Full-Stack Engineer in LCNC team. For the LCNC platform, 
+I built automated CI/CD pipelines, reducing manual work by 80% and deployment time by 50%. 
+I optimized SQL indexes, cutting query time from 2 minutes to under 10 seconds—a 12x speedup—and resolved deadlock issues to boost stability.
+
+Previously at CVTE company, I led PMS and SRM supporting annual transactions over 10 billion RMB. 
+I applied Domain-Driven Design for scalable architecture, developed reusable components. 
+And I fixed a source-level Dubbo bug to resolve transaction failures. System optimizations I led improved performance by over 80%.
+
+I'm a quick learner with strong source code reading skills, passionate about new technologies. 
+Additionally, I have five years of military experience, so I excel in team leadership, mentoring juniors, and delivering under pressure.
+
+I hope to bring my technical expertise and project experience to your team. Thank you.
+
+
+
+
+"Why do you want this job?"
+This role matches my skill and I admire your team's value. I'm eager to contribute here.
+
+"What's your biggest strength?"
+I'm good at systematic problem-sovling, which helps debug efficiently and meet deadlines.
+
+"What's your biggest weakness?"
+I used to over-optimize minor code details, slowing progress. Now I prioritize MVPs first, then iterate to balance quality and speed.
+
+"How do you handle stress?"
+I break tasks into small steps and take short breaks. It keeps me focused and calm.
+
+"Why did you leave your last job?"
+I wanted to grow in [area, e.g., "project management"], and this role offers that opportunity.
+"I gained great experience in my last role, but I’m seeking new challenges to better leverage my full-stack 
+and architecture optimization expertise—this position’s focus on core system development aligns perfectly with that growth goal."
+
+"Do you prefer working alone or in a team?"
+I enjoy teams—collaboration brings diverse ideas. But I can also work independently when needed.
+
+"What do you know about our company?"
+You're a leader in [industry, e.g., "sustainable tech"], and I admire your recent [project, e.g., "green product line"].
+
+"Where do you see yourself in 3 years?"
+I hope to master full-stack architecture and take on more responsibility in this field.
+"In 3 years, I want to get better at full-stack work and system optimization, 
+and lead key projects to improve systems—using what I learn in this job."
+
+"How would your colleagues describe you?"
+They'd say I'm reliable and helpful—I often assist with team tasks to meet deadlines.
+
+"What's your favorite part of your last job?"
+I loved interacting with clients and solving their problems—it felt rewarding.
+"I loved using tech to solve real problems—like making systems run faster or building tools that made the team’s work easier. 
+It felt great seeing those changes actually help get things done better."
+
+"How do you deal with failure?"
+I learn from it. For example, a missed deadline taught me to plan better with buffers.
+
+"What motivates you at work?"
+Seeing the impact of my work, such as completing a project and helping users achieve true value
+
+"Are you comfortable working overtime?"
+I'm flexible when needed, especially for important deadlines, as long as it's balanced.
+
+"What's your proudest achievement?"
+“In my current job, I built automated CI/CD pipelines that reduced manual work by 80% and cut deployment time by 50%. In my last role, 
+I led a system that supported annual transactions over 10 billion RMB.”
+
+"How do you learn new things?"
+I used to ask colleagues for tips and watch quick tutorials. It helps me pick up skills fast.
+But now I can ask AI, it is very powerful and can quickly help learn a lot of knowledge.
+
+"What kind of work environment do you prefer?"
+A team-friendly, helpful place where people talk openly and help each other.
+
+"Do you have any hobbies?"
+I like keeping up with cutting-edge tech and science—things like AI and the latest programming skills. 
+It helps me stay updated on new tech trends. 
+I also enjoy sports like swimming, basketball, and running—they keep me healthy and full of energy.
+
+"Any questions for us?"
+What's a typical day like for someone in this role? And how do you measure success here?
+
+"How would you handle a difficult customer?"
+I'd listen carefully to their concerns, stay calm, and find a solution together.
+
+
+
+1.我们团队开发的系统用的开发语言和框架是什么？（Java，React，C，Spring，SpringBoot，SpringCloud）
+What programming languages and frameworks does your team use for system development? (e.g., Java, React, C, Spring, SpringBoot, SpringCloud)
+
+2.我们的系统是单体还是分布式？
+Is your system monolithic or distributed?
+    1.分布式：如何保障分布式事务一致性？
+    If distributed: How do you ensure consistency in distributed transactions?
+    2.单体：后续如何扩展？有微服务话计划吗？容器化上云？
+    If monolithic: How do you plan to scale it in the future? Are there any microservices plans, or plans for containerization and cloud migration?
+
+3.我们团队现在面临最大的挑战是？
+What is the biggest challenge your team is currently facing?
+
+4.我们团队现在的CI/CD pipeline是怎么样的状态？
+What is the current status of your team’s CI/CD pipeline?
+
+5.我们团队的系统的日志和监控的情况是怎么样的？
+What is the current situation regarding logging and monitoring for your team’s systems?
+
+6.如果我有幸能成功加入贵团队，我主要负责哪些具体的工作？
+
+
+1.职业发展路径？有没有相关培训计划？升职加薪的评判标准是怎么样的？
+2.我想大概了解一下，薪资组成是怎么样的？
+
+
+
+
